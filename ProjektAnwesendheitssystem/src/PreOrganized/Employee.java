@@ -8,4 +8,5 @@ public class Employee {
 	private Double totalWorkTime;
 	private boolean is_admin;
 	
+	
 }
