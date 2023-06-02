@@ -8,9 +8,7 @@ public class Employee {
 	private Double totalWorkTime;
 	private boolean is_admin;
 	
-<<<<<<< HEAD
-	
-=======
+
 	public Employee(int id, String fN, String lN, String pw, boolean i_A) {
 		employeeID = id;
 		firstName = fN;
@@ -40,5 +38,5 @@ public class Employee {
 	public boolean getIs_admin() {
 		return is_admin;
 	}
->>>>>>> 5f59240dac6f8fd2191334b046174954669d103d
+
 }
