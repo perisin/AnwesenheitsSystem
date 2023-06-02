@@ -1,7 +1,5 @@
 package PreOrganized;
 
-import java.util.*;
-
 public class Employee {
 	private int employeeID;
 	private String firstName;
@@ -11,11 +9,6 @@ public class Employee {
 	private boolean is_admin;
 	
 
-
-
-	private List<Shift> shiftList;
-	
-
 	public Employee(int id, String fN, String lN, String pw, boolean i_A) {
 		employeeID = id;
 		firstName = fN;
@@ -23,11 +16,6 @@ public class Employee {
 		password = pw;
 		//totalWorkTime = tWT;
 		is_admin = i_A;
-		
-		shiftList = new ArrayList<Shift>();
-	}
-	public void setEmployeeID(int employeeID) {
-		this.employeeID = employeeID;
 	}
 	public int getEmployeeID() {
 		return employeeID;
@@ -49,10 +37,6 @@ public class Employee {
 	}
 	public boolean getIs_admin() {
 		return is_admin;
-	}
-
-	public List<Shift> getShiftList(){
-		return shiftList;
 	}
 
 }
